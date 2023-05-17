@@ -1,0 +1,1571 @@
+/* tipografias
+font-family: 'Alkatra', cursive; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+footer{
+    /* text-align: end; */
+    background-color: black;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; */
+}
+
+/* .snacks-grids{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 30px 20px 30px 20px;
+} */
+.parrafo-envios{
+    margin-top: 20px;
+}
+.ubicacion{
+    text-align: end;
+}
+main section{
+font-family: 'poppins', sans-serif;
+}
+
+.envios-buscador{
+    margin: 40px;
+}
+
+.iniciar-sesion-datos{
+    margin: 40px;
+}
+
+.envios-cv{
+    margin: 40px;
+}
+
+.registrate-usuario{
+    margin: 40px;
+}
+
+/* .logo{
+    background-image: url(../asset/img/madera.jpg);
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+} */
+.hamburguesas{
+    /* padding: 0px 300px 0px 300px; 
+    background-image: url(../asset/img/Hamburguesa.jpg);
+    margin-left: 20px;
+    width: 25%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: auto; */
+    width: 400px;
+    margin-left: 20px;
+} 
+/* .panchos{
+    background-image: url(../asset/img/Panchos.jpg);
+    margin-left: 20px; 
+    width: 25%;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; 
+} */
+.snacks{
+    /* background-image: url(../asset/img/papas\ snacks.jpg);
+    margin-left: 20px;
+    width: 25%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: auto; */
+    width: 400px;
+    height: 400px;
+    margin-left: 20px;
+} 
+h1,h2{
+    font-size: 30px;
+}
+/* .navegacion{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    justify-content: start;
+    font-size: 20px;
+    padding: 8px;
+    list-style: none; 
+    flex-wrap: wrap;
+}  */
+
+.fondo-index{
+    background-image: url(../asset/img/Fondo-de.madera.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+main section h1,h2{
+    text-decoration: none;
+    color: black;
+}
+/* head a img{
+    background-position: center;
+}  */
+/* .portada{
+    background-image: 100px;
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}  */
+.fondo-de-panchos{
+    background-image: 100px;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* .fondo-de-snacks{
+    background-image: 100px;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+.fondo-de-hamburguesas{
+    background-image: 100px;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box{
+    text-align: center;
+    padding: 30px 0px 30px 0px
+} 
+
+.chopan{
+    width: 400px;
+    margin-left: 20px;
+}
+
+.centro{
+    margin: 30px 10px 0px 10px;
+}
+
+.linea{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+/* .buscador{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: end;
+    margin-top: -25px;
+    margin-right: 25px;
+    flex-wrap: wrap;
+}  */
+
+.clasicas{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-left: 20px;
+    flex-wrap: wrap;
+}
+.maxi{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-left: 20px;
+    flex-wrap: wrap;
+}
+
+.panchos-cortos{
+    background-image: url(../asset/img/img\ pancho.jpg);
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-left: 20px;
+    flex-wrap: wrap;
+}
+.super-panchos{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-left: 20px;
+    flex-wrap: wrap;
+} 
+
+.orden{
+    margin: 40px 40px 0px 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.orden{
+    text-align: center;
+}
+.swift-24F{
+    width: 250px;
+    margin: 10px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: black; */
+    border-radius: 20px;
+
+}
+.swift-24F div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+} 
+
+.UG-24F{
+    width: 250px;
+    margin: 10px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: black; */
+    border-radius: 20px;
+
+}
+.UG-24F div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.paty-clasico-24F{
+    width: 250px;
+    margin: 10px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: black; */
+    border-radius: 20px;
+
+}
+.paty-clasico-24F div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.maxi-mesa-24F{
+    width: 250px;
+    margin: 10px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: black; */
+    border-radius: 20px;
+
+}
+.maxi-mesa-24F div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.linea1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 30px 0px 30px 0px;
+}
+/* .swift-24F div h2{
+    order: 3;
+}
+.swift-24F div p{
+    order: 2;
+}
+.swift-24F div a{
+    order: 1;
+} */
+.linea2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 30px 0px 30px 0px;
+}
+.linea3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 30px 0px 30px 0px;
+}
+.linea4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 30px 0px 30px 0px;
+}
+
+/* .img-fondo{
+    background-image: url(../asset/img/burguer\ fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+} */
+
+.color-footer{
+    color: white;
+}
+
+.color-nav{
+    background-color: orangered;
+    margin-top: -10px;
+}
+
+.linea1-grids{
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(2,1fr);
+    margin-top: 30px;
+}
+
+.linea2-grids{
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(2,1fr);
+    margin-top: 30px;
+}
+
+/* hamburguesas */
+
+
+.swift-24F-grids{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-self: center;
+    text-align: center;
+}
+.UG-24F-grids{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-self: center;
+    text-align: center;
+}
+.paty-clasico-24F-grids{
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-self: center;
+    text-align: center;
+}
+.maxi-mesa-24F-grids{
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-self: center;
+    text-align: center;
+}
+.linea2-grids{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(2,1fr);
+    margin-top: 20px;
+}
+
+.linea4-grids{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(2,1fr);
+    margin-top: 30px;
+}
+.linea3-grids{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(2,1fr);
+    margin-top: 30px; 
+}
+
+/* super hamburguesas */
+
+.swift-40F-grids{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-self: center;
+    text-align: center;
+}
+.UG-40F-grids{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-self: center;
+    text-align: center;
+}
+.paty-clasico-40F-grids{
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-self: center;
+    text-align: center;
+}
+.maxi-mesa-40F-grids{
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-self: center;
+    text-align: center;
+}
+
+/* panchos cortos */
+
+.depin_30F-grids{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-self: center;
+    text-align: center;
+}
+
+.swift-30F-grids{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-self: center;
+    text-align: center;
+}
+
+.paty-viena-30F-grids{
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-self: center;
+    text-align: center;
+}
+
+.vienisima-30F-grids{
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-self: center;
+    text-align: center;
+}
+
+/* super panchos */
+
+.delosan_36P-grids{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-self: center;
+    text-align: center;
+}
+
+.swift-36P-grids{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-self: center;
+    text-align: center;
+}
+
+.paty-viena-36P-grids{
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-self: center;
+    text-align: center;
+}
+
+
+
+/* snacks */
+
+.snacks-grids{
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(1,1fr);
+    margin: 30px 0px 30px 0px; 
+}
+
+
+.leq-grids{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-self: center;
+    text-align: center;
+}
+
+.krachitos-grids{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-self: center;
+    text-align: center;
+}
+
+.chil-grids{
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-self: center;
+    text-align: center;
+}
+
+.pehuamar-grids{
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-self: center;
+    text-align: center;
+}
+
+.brest-36P-grids{
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-self: center;
+    text-align: center;
+}
+
+/* .footer{
+    display: grid;
+    grid-area: footer;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-areas:
+    "redes-sociales-1 redes-sociales-1 redes-sociales-1"
+    "redes-sociales2 redes-sociales-2 redes-sociales-2"
+}
+.redes-sociales-1{
+    grid-area: redes-sociales-1;
+}
+.redes-sociales-2{
+    grid-area: redes-sociales-2;
+} */
+
+
+
+.header{
+    grid-area: header;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-template-areas: 
+    "portada portada portada"
+    "navegacion navegacion navegacion"
+    "buscador buscador buscador"
+}
+.portada{
+    grid-area: portada;
+    width: 100%;
+    justify-content: stretch;
+}
+.navegacion{
+    grid-area: navegacion;
+}
+.buscador{
+    grid-area: buscador;
+    display: flex;
+}
+.navegacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 25px;
+    flex-wrap: wrap;
+    gap: 25px;
+    text-decoration: none;
+}
+.navegacion li a{
+    text-decoration: none;
+    color: black;
+}
+.buscador{
+    gap: 20px;
+    font-size: 25px;
+    padding: 8px;
+    justify-content: center;
+}
+
+.buscador input{
+    width: 90%;
+    height: 30px;
+}
+
+main article a{
+    text-decoration: none;
+}
+
+.redes-sociales-1{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-left: 5px;
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+.redes-sociales-2{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-top: 10px;
+    margin-left: 10px;
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+.ubicacion{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+.redes-sociales-1 a{
+    text-decoration: none;
+} 
+
+@media(max-width:1150px){
+    /*                                    snacks                */
+    .snacks-grids{
+        background-color: white;
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: repeat(2,1fr);
+        margin: 30px 0px 30px 0px; 
+    }
+    
+    
+    .leq-grids{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        align-self: center;
+        text-align: center;
+    }
+    
+    .krachitos-grids{
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        align-self: center;
+        text-align: center;
+    }
+    
+    .chil-grids{
+        grid-column-start: 5;
+        grid-column-end: 7;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        align-self: center;
+        text-align: center;
+    }
+    
+    .pehuamar-grids{
+        grid-column-start: 1;
+        grid-column-end: 7;
+        grid-row-start: 3;
+        grid-row-end: 5;
+        align-self: center;
+        text-align: center;
+    }
+    /*                                       super panchos              */
+    
+.linea4-grids{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(2,1fr);
+    margin-top: 30px;
+    grid-gap: 10px;
+    }
+.linea3-grids{
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: repeat(2,1fr);
+        margin-top: 30px; 
+        grid-gap: 10px;
+    }
+    .delosan_36P-grids{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        align-self: center;
+        text-align: center;
+    }
+    
+    .swift-36P-grids{
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        align-self: center;
+        text-align: center;
+    }
+    
+    .paty-viena-36P-grids{
+        grid-column-start: 5;
+        grid-column-end: 7;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        align-self: center;
+        text-align: center;
+    }
+    .brest-36P-grids{
+        grid-column-start: 1;
+        grid-column-end: 7;
+        grid-row-start: 3;
+        grid-row-end: 5;
+        align-self: center;
+        text-align: center;
+    }
+    
+/*                                           panchos cortos     */
+.linea2-grids{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(2,1fr);
+    margin-top: 20px;
+    margin-bottom: 30px;
+    grid-gap: 10px;
+}
+.linea1-grids{
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(2,1fr);
+    margin-top: 30px;
+    grid-gap: 10px;
+}
+.depin_30F-grids{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-self: center;
+    text-align: center;
+}
+
+.swift-30F-grids{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-self: center;
+    text-align: center;
+}
+
+.paty-viena-30F-grids{
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-self: center;
+    text-align: center;
+}
+
+.vienisima-30F-grids{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    align-self: center;
+    text-align: center;
+}
+
+}
+
+@media(max-width:1024px){
+    .chopan{
+        width: 380px;
+    }
+    .hamburguesas{
+        width: 380px;
+    }
+    .snacks{
+        width: 380px;
+    }
+    .buscador input{
+        width: 30%;
+    }
+    .navegacion{
+        flex-direction: row-reverse;
+    }
+    .buscador input{
+        width: 70%;
+        height: 25px;
+    }
+    .linea4-grids{
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: repeat(2,1fr);
+        margin-top: 30px;
+        grid-gap: 10px;
+    }
+    .linea3-grids{
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: repeat(2,1fr);
+        margin-top: 30px; 
+        grid-gap: 10px;
+    }
+    .swift-40F-grids{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        align-self: center;
+        text-align: center;
+    }
+    .UG-40F-grids{
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        align-self: center;
+        text-align: center;
+    }
+    .paty-clasico-40F-grids{
+        grid-column-start: 5;
+        grid-column-end: 7;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        align-self: center;
+        text-align: center;
+    }
+    .maxi-mesa-40F-grids{
+        grid-column-start: 1;
+        grid-column-end: 7;
+        grid-row-start: 3;
+        grid-row-end: 5;
+        align-self: center;
+        text-align: center;
+    }
+    
+    .linea1-grids{
+        background-color: white;
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: repeat(2,1fr);
+        margin-top: 30px;
+        grid-gap: 10px;
+    }
+    .swift-24F-grids{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        align-self: center;
+        text-align: center;
+    }
+    .UG-24F-grids{
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        align-self: center;
+        text-align: center;
+    }
+    .paty-clasico-24F-grids{
+        grid-column-start: 5;
+        grid-column-end: 7;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        align-self: center;
+        text-align: center;
+    }
+    .maxi-mesa-24F-grids{
+        grid-column-start: 1;
+        grid-column-end: 7;
+        grid-row-start: 3;
+        grid-row-end: 5;
+        align-self: center;
+        text-align: center;
+    }
+    .linea2-grids{
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: repeat(2,1fr);
+        margin-top: 20px;
+        margin-bottom: 30px;
+        grid-gap: 10px;
+    }
+    
+}
+@media(max-width:858px){
+    .navegacion{
+        margin-top: 5px;
+        flex-direction: column;
+        align-content: center;
+        font-size: 25px;
+    }
+    .chopan{
+        width: 350px;
+    }
+    .hamburguesas{
+        width: 350px;
+    }
+    .snacks{
+        width: 350px;
+    }
+    /*                          snacks */
+    .snacks-grids{
+        background-color: white;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(4,1fr);
+        margin: 30px 0px 30px 0px; 
+    }
+    
+    
+    .leq-grids{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        align-self: center;
+        text-align: center;
+    }
+    
+    .krachitos-grids{
+        grid-column-start: 3;
+        grid-column-end: 7;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        align-self: center;
+        text-align: center;
+    }
+    
+    .chil-grids{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 5;
+        align-self: center;
+        text-align: center;
+    }
+    
+    .pehuamar-grids{
+        grid-column-start: 3;
+        grid-column-end: 7;
+        grid-row-start: 3;
+        grid-row-end: 5;
+        align-self: center;
+        text-align: center;
+    }
+    /*      panchos cortos      */
+.depin_30F-grids{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-self: center;
+    text-align: center;
+}
+
+.swift-30F-grids{
+    grid-column-start: 3;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-self: center;
+    text-align: center;
+}
+
+.paty-viena-30F-grids{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    align-self: center;
+    text-align: center;
+}
+
+.vienisima-30F-grids{
+    grid-column-start: 3;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    align-self: center;
+    text-align: center;
+}
+.linea2-grids{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    margin-top: 20px;
+    margin-bottom: 30px;
+    grid-gap: 10px;
+}
+.linea1-grids{
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    margin-top: 30px;
+    grid-gap: 10px;
+}
+.redes-sociales-1{
+    text-align: center;
+    text-decoration: none;
+}
+.redes-sociales-2{
+    text-align: center;
+}
+.ubicacion{
+    text-align: center;
+}
+
+.linea4-grids{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    margin-top: 30px;
+    grid-gap: 10px;
+}
+.linea3-grids{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    margin-top: 30px; 
+    grid-gap: 10px;
+}
+.delosan_36P-grids{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-self: center;
+    text-align: center;
+}
+
+.swift-36P-grids{
+    grid-column-start: 3;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-self: center;
+    text-align: center;
+}
+
+.paty-viena-36P-grids{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    align-self: center;
+    text-align: center;
+}
+.brest-36P-grids{
+    grid-column-start: 3;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    align-self: center;
+    text-align: center;
+}
+/*                 hamburguesas                    */
+.linea4-grids{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    margin-top: 30px;
+    grid-gap: 10px;
+}
+.linea3-grids{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    margin-top: 30px; 
+    grid-gap: 10px;
+}
+.swift-40F-grids{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-self: center;
+    text-align: center;
+}
+.UG-40F-grids{
+    grid-column-start: 3;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-self: center;
+    text-align: center;
+}
+.paty-clasico-40F-grids{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    align-self: center;
+    text-align: center;
+}
+.maxi-mesa-40F-grids{
+    grid-column-start: 3;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    align-self: center;
+    text-align: center;
+}
+.linea1-grids{
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    margin-top: 30px;
+    grid-gap: 10px;
+}
+.swift-24F-grids{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-self: center;
+    text-align: center;
+}
+.UG-24F-grids{
+    grid-column-start: 3;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-self: center;
+    text-align: center;
+}
+.paty-clasico-24F-grids{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    align-self: center;
+    text-align: center;
+}
+.maxi-mesa-24F-grids{
+    grid-column-start: 3;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    align-self: center;
+    text-align: center;
+}
+.linea2-grids{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    margin-top: 20px;
+    margin-bottom: 30px;
+    grid-gap: 10px;
+}
+
+}
+
+@media(max-width:768px){
+    .redes-sociales-1{
+        text-align: center;
+        text-decoration: none;
+    }
+    .redes-sociales-2{
+        text-align: center;
+    }
+    .ubicacion{
+        text-align: center;
+    }
+    .chopan{
+        width: 350px;
+    }
+    .hamburguesas{
+        width: 350px;
+    }
+    .snacks{
+        width: 350px;
+    }
+    .navegacion{
+        margin-top: 5px;
+        flex-direction: column;
+        align-content: center;
+        font-size: 25px;
+    }
+    .buscador input{
+        width: 50%;
+        height: 20px;
+    }
+    
+
+@media(max-width:580px){
+    /*                       snacks          */
+    .snacks-grids{
+        background-color: white;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 4fr;
+        margin: 30px 0px 30px 0px; 
+    }
+    
+    
+    .leq-grids{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        align-self: center;
+        text-align: center;
+    }
+    
+    .krachitos-grids{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        align-self: center;
+        text-align: center;
+    }
+    
+    .chil-grids{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 3;
+        grid-row-end: 3;
+        align-self: center;
+        text-align: center;
+    }
+    
+    .pehuamar-grids{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 4;
+        grid-row-end: 4;
+        align-self: center;
+        text-align: center;
+    }
+        /*      panchos cortos      */
+.depin_30F-grids{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    align-self: center;
+    text-align: center;
+}
+
+.swift-30F-grids{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    align-self: center;
+    text-align: center;
+}
+
+.paty-viena-30F-grids{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    align-self: center;
+    text-align: center;
+}
+
+.vienisima-30F-grids{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    align-self: center;
+    text-align: center;
+}
+.linea2-grids{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 4fr;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    grid-gap: 10px;
+}
+.linea1-grids{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 4fr;
+    margin-top: 30px;
+    grid-gap: 10px;
+}
+}
+.linea4-grids{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 41fr;
+    margin-top: 30px;
+    grid-gap: 10px;
+}
+.linea3-grids{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin-top: 30px; 
+    grid-gap: 10px;
+}
+.delosan_36P-grids{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    align-self: center;
+    text-align: center;
+}
+
+.swift-36P-grids{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    align-self: center;
+    text-align: center;
+}
+
+.paty-viena-36P-grids{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    align-self: center;
+    text-align: center;
+}
+.brest-36P-grids{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    align-self: center;
+    text-align: center;
+}
+.chopan{
+        width: 340px;
+    }
+    .hamburguesas{
+        width: 340px;
+    }
+    .snacks{
+        width: 340px;
+    }
+
+}
+
+@media(max-width:480px){
+    .chopan{
+        width: 320px;
+    }
+    .hamburguesas{
+        width: 320px;
+    }
+    .snacks{
+        width: 320px;
+    }
+    .navegacion{
+        margin-top: 15px;
+        font-size: 20px;
+    }
+    .color-nav{
+        margin-top: -5%;
+    }
+    .buscador input{
+        width: 30%;
+        height: 20px;
+    }
+    .buscador{
+        font-size: 20px;
+    }
+    .linea4-grids{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 4fr;
+        margin-top: 30px;
+        grid-gap: 10px;
+    }
+    .linea3-grids{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 4fr;
+        margin-top: 30px; 
+        grid-gap: 10px;
+    }
+    .swift-40F-grids{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        align-self: center;
+        text-align: center;
+    }
+    .UG-40F-grids{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        align-self: center;
+        text-align: center;
+    }
+    .paty-clasico-40F-grids{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 3;
+        grid-row-end: 3;
+        align-self: center;
+        text-align: center;
+    }
+    .maxi-mesa-40F-grids{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 4;
+        grid-row-end: 4;
+        align-self: center;
+        text-align: center;
+    }
+    .linea1-grids{
+        background-color: white;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 4fr;
+        margin-top: 30px;
+        grid-gap: 10px;
+    }
+    .swift-24F-grids{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        align-self: center;
+        text-align: center;
+    }
+    .UG-24F-grids{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 3;
+        grid-row-end: 3;
+        align-self: center;
+        text-align: center;
+    }
+    .paty-clasico-24F-grids{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 4;
+        grid-row-end: 4;
+        align-self: center;
+        text-align: center;
+    }
+    .maxi-mesa-24F-grids{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        align-self: center;
+        text-align: center;
+    }
+    .linea2-grids{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        grid-gap: 10px;
+    }
+}
+@media(max-width:425px){
+    .chopan{
+        width: 310px;
+    }
+    .hamburguesas{
+        width: 310px;
+    }
+    .snacks{
+        width: 310px;
+    }
+    .linea{
+        margin-right: 20px;
+    }
+}
+@media(max-width:375px){
+    .navegacion{
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    .buscador input{
+        width: 40%;
+        height: 15px;
+    }
+    .chopan{
+        width: 300px;
+    }
+    .hamburguesas{
+        width: 300px;
+    }
+    .snacks{
+        width: 300px;
+    }
+}
+
+
+@media(max-width:320px){
+    .chopan{
+        width: 280px;
+    }
+    .hamburguesas{
+        width: 280px;
+    }
+    .snacks{
+        width: 280px;
+    }
+}
