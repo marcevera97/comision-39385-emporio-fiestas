@@ -1,3 +1,25 @@
 footer{
-    background-color: black;
+    background-color: $backgraund-secundario;
+}
+.redes-sociales-1 a{
+    @include flex (column,wrap,none,none,5px);
+    margin-left: 10px;
+    text-decoration: none;
+    text-align: start;
+}
+.redes-sociales-2{
+    @include flex (column,wrap,none,none,none);
+    text-align: start;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.ubicacion{
+    @include flex (column,wrap,none,none,none);
+    text-align: center;
+    
+}
+.color-footer{
+    color: white;
 }

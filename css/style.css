@@ -21,6 +21,30 @@ header .navegacion a {
 header nav li {
   list-style: none; }
 
+header nav {
+  background-color: orangered;
+  margin-top: -10px; }
+
+header {
+  display: grid;
+  grid-template-columns: repet(3, 1fr);
+  grid-template-rows: repet(3, 1fr);
+  justify-content: none;
+  align-items: none;
+  grid-area: "portada portada portada" "navegacion navegacion navegacion" "buscador buscador buscador"; }
+
+.buscador {
+  grid-area: buscador;
+  display: flex;
+  gap: 20px;
+  font-size: 25px;
+  padding: 8px;
+  justify-content: center; }
+
+.buscador input {
+  width: 90%;
+  height: 30px; }
+
 .fondo-index {
   background-image: url(../asset/img/Fondo-de.madera.jpg);
   background-size: cover;
@@ -30,3 +54,58 @@ header nav li {
 
 footer {
   background-color: black; }
+
+.redes-sociales-1 a {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: none;
+  gap: 5px;
+  margin-left: 10px;
+  text-decoration: none;
+  text-align: start; }
+
+.redes-sociales-2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: none;
+  gap: none;
+  text-align: start;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  text-decoration: none; }
+
+.ubicacion {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: none;
+  gap: none;
+  text-align: center; }
+
+.color-footer {
+  color: white; }
+
+@font-face {
+  font-family: 'poppins', sans-serif;
+  src: url(); }
+
+main .centro {
+  margin: 30px 10px 0px 10px; }
+
+main .box {
+  text-align: center;
+  padding: 30px 0px 30px 0px; }
+
+main section ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: none;
+  gap: 20px; }

@@ -1,0 +1,14 @@
+main{
+    .centro{
+        margin: 30px 10px 0px 10px;
+    }
+    .box{
+        text-align: center;
+        padding: 30px 0px 30px 0px;
+    }
+    section{
+        ul{
+            @include flex (row,wrap,space-evenly,none,20px);
+        }
+    }
+}

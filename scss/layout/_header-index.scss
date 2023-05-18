@@ -17,7 +17,26 @@ header{
     nav li{
         list-style: none;
     }
+    nav{
+        background-color: $backgraund-principal;
+        margin-top: -10px;
+    }
 }
+header{
+    @include grid (repet(3,1fr),repet(3,1fr),none,none,"portada portada portada""navegacion navegacion navegacion""buscador buscador buscador")
+    }
+    .buscador{
+        grid-area: buscador;
+        display: flex;
+        gap: 20px;
+        font-size: 25px;
+        padding: 8px;
+        justify-content: center;
+    }
+    .buscador input{
+        width: 90%;
+        height: 30px;
+    }
 .fondo-index{
     background-image: url(../asset/img/Fondo-de.madera.jpg);
     background-size: cover;
