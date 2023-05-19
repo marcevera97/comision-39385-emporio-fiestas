@@ -1,0 +1,39 @@
+.snacks-grids{
+    @include grid (repeat(8,1fr),repeat(1,1fr),none,none,none);
+    margin: 30px 0px 30px 0px;
+}
+.leq-grids{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-self: center;
+    text-align: center;
+}
+
+.krachitos-grids{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-self: center;
+    text-align: center;
+}
+
+.chil-grids{
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-self: center;
+    text-align: center;
+}
+
+.pehuamar-grids{
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-self: center;
+    text-align: center;
+}
