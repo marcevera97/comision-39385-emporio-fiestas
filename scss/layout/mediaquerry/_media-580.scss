@@ -1,0 +1,79 @@
+@media(max-width:580px){
+    .chopan{
+        width: 340px;
+    }
+    .hamburguesas{
+        width: 340px;
+    }
+    .snacks{
+        width: 340px;
+    }
+    .snacks-grids{
+        @include grid (1fr,repeat(4,1fr),none,none,none);
+        margin: 30px 0px 30px 0px;
+        grid-gap: 10px;
+    }
+    .leq-grids{
+        @include grid-mq (1,1,1,1,center,center);
+    }
+    
+    .krachitos-grids{
+        @include grid-mq (1,1,2,2,center,center);
+    }
+    
+    .chil-grids{
+        @include grid-mq (1,1,3,3,center,center);
+    }
+    .pehuamar-grids{
+        @include grid-mq (1,1,4,4,center,center);
+    }
+    .linea1-grids{
+        @include grid (1fr,repeat(4,1fr),none,none,none);
+        margin: 30px 0px 30px 0px;
+        grid-gap: 10px;
+    }
+    .linea2-grids{
+        @include grid (1fr,repeat(4,1fr),none,none,none);
+        margin: 30px 0px 30px 0px;
+        grid-gap: 10px;
+    }
+    .linea3-grids{
+        @include grid (1fr,repeat(4,1fr),none,none,none);
+        margin: 30px 0px 30px 0px;
+        grid-gap: 10px;
+    }
+    .linea4-grids{
+        @include grid (1fr,repeat(4,1fr),none,none,none);
+        margin: 30px 0px 30px 0px;
+        grid-gap: 10px;
+    }
+    .depin_30F-grids{
+        @include grid-mq (1,1,1,1,center,center);
+    }
+    
+    .swift-30F-grids{
+        @include grid-mq (1,1,2,2,center,center);
+    }
+    
+    .paty-viena-30F-grids{
+        @include grid-mq (1,1,3,3,center,center);
+    }
+    
+    .vienisima-30F-grids{
+        @include grid-mq (1,1,4,4,center,center);
+    }
+    .delosan_36P-grids{
+        @include grid-mq (1,1,1,1,center,center);
+    }
+    
+    .swift-36P-grids{
+        @include grid-mq (1,1,2,2,center,center);
+    }
+    
+    .paty-viena-36P-grids{
+        @include grid-mq (1,1,3,3,center,center);
+    }
+    .brest-36P-grids{
+        @include grid-mq (1,1,4,4,center,center);
+}
+}

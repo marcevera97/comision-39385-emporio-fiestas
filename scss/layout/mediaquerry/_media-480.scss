@@ -1,0 +1,69 @@
+@media(max-width:480px){
+    .chopan{
+        width: 320px;
+    }
+    .hamburguesas{
+        width: 320px;
+    }
+    .snacks{
+        width: 320px;
+    }
+    .navegacion{
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .color-nav{
+        margin-top: -5%;
+    }
+    .buscador input{
+        width: 30%;
+        height: 20px;
+    }
+    .buscador{
+        font-size: 20px;
+    }
+    .linea1-grids{
+        @include grid (1fr,repeat(4,1fr),none,none,none);
+        margin: 30px 0px 30px 0px;
+        grid-gap: 10px;
+    }
+    .linea2-grids{
+        @include grid (1fr,repeat(4,1fr),none,none,none);
+        margin: 30px 0px 30px 0px;
+        grid-gap: 10px;
+    }
+    .linea3-grids{
+        @include grid (1fr,repeat(4,1fr),none,none,none);
+        margin: 30px 0px 30px 0px;
+        grid-gap: 10px;
+    }
+    .linea4-grids{
+        @include grid (1fr,repeat(4,1fr),none,none,none);
+        margin: 30px 0px 30px 0px;
+        grid-gap: 10px;
+    }
+    .swift-40F-grids{
+        @include grid-mq (1,1,1,1,center,center);
+    }
+    .UG-40F-grids{
+        @include grid-mq (1,1,2,2,center,center);
+    }
+    .paty-clasico-40F-grids{
+        @include grid-mq (1,1,3,3,center,center);
+    }
+    .maxi-mesa-40F-grids{
+        @include grid-mq (1,1,4,4,center,center);
+    }
+    .swift-24F-grids{
+        @include grid-mq (1,1,1,1,center,center);
+    }
+    .UG-24F-grids{
+        @include grid-mq (1,1,2,2,center,center);
+    }
+    .paty-clasico-24F-grids{
+        @include grid-mq (1,1,3,3,center,center);
+    }
+    .maxi-mesa-24F-grids{
+        @include grid-mq (1,1,4,4,center,center);
+    }
+}
