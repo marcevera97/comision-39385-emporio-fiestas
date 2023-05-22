@@ -216,6 +216,53 @@ main section ul {
   align-items: none;
   gap: 20px; }
 
+button a {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  color: black; }
+
+button {
+  margin: 20px 0px 20px 20px;
+  width: 20em;
+  position: relative;
+  height: 5.5em;
+  border: 3px ridge orangered;
+  border-radius: 10px;
+  transition: 1s;
+  background-color: orangered; }
+
+button::after {
+  content: "";
+  position: absolute;
+  top: -1px;
+  left: 3%;
+  width: 95%;
+  height: 40%;
+  background-color: transparent;
+  transition: 1s;
+  transform-origin: center; }
+
+button::before {
+  content: "";
+  transform-origin: center;
+  position: absolute;
+  top: 0px;
+  left: 3%;
+  width: 95%;
+  height: 40%;
+  background-color: transparent;
+  transition: 1s; }
+
+button:hover::before, button:hover::after {
+  transform: scale(0); }
+
+button:hover {
+  box-shadow: inset 0px 0px 40px black; }
+
 .orden {
   display: flex;
   flex-direction: row;
