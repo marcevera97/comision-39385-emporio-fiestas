@@ -11,6 +11,15 @@ main{
             @include flex (row,wrap,space-evenly,none,20px);
         }
     }
+    .hamburguesas{
+        width: 400px;
+    }
+    .chopan{
+        width: 400px;
+    }
+    .snacks{
+        width: 400px;
+    }
 }
 button a{
     display: flex;

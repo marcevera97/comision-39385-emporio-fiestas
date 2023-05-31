@@ -216,6 +216,15 @@ main section ul {
   align-items: none;
   gap: 20px; }
 
+main .hamburguesas {
+  width: 400px; }
+
+main .chopan {
+  width: 400px; }
+
+main .snacks {
+  width: 400px; }
+
 button a {
   display: flex;
   justify-content: center;
@@ -406,7 +415,7 @@ input:focus {
 footer {
   background-color: black; }
 
-.redes-sociales-1 a {
+.redes-sociales-1 a, .redes-sociales-2 a {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -418,17 +427,10 @@ footer {
   text-align: start; }
 
 .redes-sociales-2 {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: none;
-  align-items: none;
-  gap: none;
-  text-align: start;
-  margin-top: 10px;
+  margin-top: 5px;
   margin-left: 10px;
   margin-bottom: 10px;
-  text-decoration: none; }
+  gap: none; }
 
 .ubicacion {
   display: flex;
@@ -693,7 +695,7 @@ main div p {
     width: 350px; }
   .snacks {
     width: 350px; }
-  .redes-sociales-1 a {
+  .redes-sociales-1 a, .redes-sociales-2 a {
     text-align: center;
     text-decoration: none; }
   .redes-sociales-2 {

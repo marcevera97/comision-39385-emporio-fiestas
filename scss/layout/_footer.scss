@@ -8,12 +8,11 @@ footer{
     text-align: start;
 }
 .redes-sociales-2{
-    @include flex (column,wrap,none,none,none);
-    text-align: start;
-    margin-top: 10px;
+    @extend .redes-sociales-1;
+    margin-top: 5px;
     margin-left: 10px;
     margin-bottom: 10px;
-    text-decoration: none;
+    gap: none;
 }
 .ubicacion{
     @include flex (column,wrap,none,none,none);
