@@ -4,8 +4,14 @@
   box-sizing: border-box; }
 
 @font-face {
-  font-family: 'poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
   src: url(); }
+
+.box {
+  font-family: 'Roboto', sans-serif; }
+
+header .navegacion {
+  font-family: 'Roboto', sans-serif; }
 
 .snacks-grids {
   display: grid;
@@ -48,8 +54,13 @@
   align-self: center;
   text-align: center; }
 
-main section form fieldset {
-  margin: 40px; }
+main section form {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 50px; }
+  main section form fieldset {
+    margin: 40px; }
 
 .linea3-grids {
   display: grid;
@@ -206,7 +217,8 @@ main .centro {
 
 main .box {
   text-align: center;
-  padding: 30px 0px 30px 0px; }
+  padding: 30px 0px 30px 0px;
+  color: rgba(250, 250, 250, 0.808); }
 
 main section ul {
   display: flex;
@@ -217,13 +229,13 @@ main section ul {
   gap: 20px; }
 
 main .hamburguesas {
-  width: 400px; }
+  width: 250px; }
 
 main .chopan {
-  width: 400px; }
+  width: 250px; }
 
 main .snacks {
-  width: 400px; }
+  width: 250px; }
 
 button a {
   display: flex;
@@ -447,6 +459,10 @@ footer {
 main div form {
   margin: 40px; }
 
+main div label {
+  display: flex;
+  text-align: center; }
+
 main div p {
   margin: 40px; }
 
@@ -578,11 +594,11 @@ main div p {
 
 @media (max-width: 1024px) {
   .chopan {
-    width: 380px; }
+    width: 230px; }
   .hamburguesas {
-    width: 380px; }
+    width: 230px; }
   .snacks {
-    width: 380px; }
+    width: 230px; }
   .buscador input {
     width: 30%; }
   .navegacion {
@@ -686,15 +702,15 @@ main div p {
 @media (max-width: 858px) {
   header .navegacion {
     margin-top: 5px;
-    flex-direction: column;
+    flex-direction: column-reverse;
     text-align: center;
     font-size: 25px; }
   .chopan {
-    width: 350px; }
+    width: 200px; }
   .hamburguesas {
-    width: 350px; }
+    width: 200px; }
   .snacks {
-    width: 350px; }
+    width: 200px; }
   .redes-sociales-1 a, .redes-sociales-2 a {
     text-align: center;
     text-decoration: none; }
@@ -895,11 +911,11 @@ main div p {
 
 @media (max-width: 580px) {
   .chopan {
-    width: 340px; }
+    width: 180px; }
   .hamburguesas {
-    width: 340px; }
+    width: 180px; }
   .snacks {
-    width: 340px; }
+    width: 180px; }
   .snacks-grids {
     display: grid;
     grid-template-columns: 1fr;
@@ -1032,11 +1048,11 @@ main div p {
 
 @media (max-width: 480px) {
   .chopan {
-    width: 320px; }
+    width: 150px; }
   .hamburguesas {
-    width: 320px; }
+    width: 150px; }
   .snacks {
-    width: 320px; }
+    width: 150px; }
   .navegacion {
     margin-top: 20px;
     font-size: 20px; }
@@ -1142,11 +1158,11 @@ main div p {
 
 @media (max-width: 375px) {
   .chopan {
-    width: 310px; }
+    width: 100px; }
   .hamburguesas {
-    width: 310px; }
+    width: 100px; }
   .snacks {
-    width: 310px; }
+    width: 100px; }
   .linea {
     margin-right: 20px; } }
 
@@ -1158,11 +1174,11 @@ main div p {
     width: 40%;
     height: 15px; }
   .chopan {
-    width: 300px; }
+    width: 80px; }
   .hamburguesas {
-    width: 300px; }
+    width: 80px; }
   .snacks {
-    width: 300px; } }
+    width: 80px; } }
 
 @media (max-width: 320px) {
   .chopan {

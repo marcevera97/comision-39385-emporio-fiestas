@@ -1,12 +1,12 @@
 @media(max-width:580px){
     .chopan{
-        width: 340px;
+        width:180px;
     }
     .hamburguesas{
-        width: 340px;
+        width: 180px;
     }
     .snacks{
-        width: 340px;
+        width: 180px;
     }
     .snacks-grids{
         @include grid (1fr,repeat(4,1fr),none,none,none);
